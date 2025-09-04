@@ -4,14 +4,14 @@ import flower from '../assets/flower1.png';
 
 const HeroSection = () => {
     return (
-        <div className=" px-4 sm:max-w-3xl mx-auto items-center text-center justify-center mt-60 lg:mt-40 tracking-normal space-y-8 lg:space-y-4"> 
+        <div className=" px-4 sm:max-w-3xl mx-auto items-center text-center justify-center mt-48 lg:mt-40 tracking-normal space-y-8 lg:space-y-4"> 
         <img src={flower} alt="Flower"
-         className='absolute left-0 top-12 lg:top-1/4 opacity-50 pointer-events-none select-none h-[300px] lg:h-[416.95px] w-auto' />
+         className='absolute left-0 top-12 lg:top-1/4 opacity-50 pointer-events-none select-none h-[200px] lg:h-[416.95px] w-auto' />
             <div> 
                 <p className="text-3xl lg:text-4xl">
-                    Samson is a <span className="font-bold font-italic"> product designer </span> helping brands craft
+                    Samson is a <span className="font-semibold font-italic"> product designer </span> helping brands craft
                     seamless digital experiences. He has experience * {" "} 
-                    <span className="font-bold">designing responsive apps, </span> ⌘  and building
+                    <span className="font-semibold">designing responsive apps, </span> ⌘  and building
                     scalable design systems.
 
 
