@@ -16,7 +16,7 @@ function NavBar() {
                     <ul className='hidden lg:flex ml-8 space-x-8 font-medium'>
                         {navLinks.map((item, index) => (
                             <li key={index}>
-                                <a href={item.href}className={`transition-colors duration-200 hover:font-bold ${
+                                <a href={item.href}className={`hover:cursor-pointer transition-colors duration-200 hover:font-bold ${
                 index === 0 ? "underline underline-offset-8" : ""}`}>{item.label}</a>
                             </li>
                         ))}
