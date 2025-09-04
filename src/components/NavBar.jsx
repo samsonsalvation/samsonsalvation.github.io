@@ -7,7 +7,7 @@ function NavBar() {
     const [toggle, setToggle] = useState(false);
     const handleToggle = () => setToggle(!toggle);
     return (
-    <nav className="sticky top-0 z-50 py-3 px-6 lg:px-[60px] backdrop-blur-lg shadow-sm bg-#FAFAFA">
+    <nav className="fixed w-full top-0 z-50 py-3 px-6 lg:px-[60px] shadow-sm bg-white">
             <div className="container py-[12px] mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
@@ -29,7 +29,7 @@ function NavBar() {
                     </div>
                 </div>
                 {toggle && (
-                    <div className=" fixedright-0 z-20 bg-#FAFAFA text-xl w-full p-12 flex flex-col justify-center items-center gap-6 lg:hidden">
+                    <div className="fixed right-0 top-[64px] bottom-0 z-20 bg-[#FAFAFA] text-xl w-full p-12 flex flex-col justify-top items-center gap-6 lg:hidden">
                        <ul> 
                             {navLinks.map((item, index) => (
                                 <li key={index} className='py-4 text-center'> 

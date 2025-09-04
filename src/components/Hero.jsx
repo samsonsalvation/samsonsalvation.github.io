@@ -3,7 +3,7 @@ import medvive from '../assets/medvive.png';
 
 const HeroSection = () => {
     return (
-        <div className=" px-4 sm:max-w-3xl mx-auto items-center text-center justify-center mt-20 tracking-normal space-y-8 lg:space-y-4"> 
+        <div className=" px-4 sm:max-w-3xl mx-auto items-center text-center justify-center mt-40 tracking-normal space-y-8 lg:space-y-4"> 
             <div> 
                 <p className="text-3xl lg:text-4xl">
                     Samson is a <span className="font-bold font-italic"> product designer </span> helping brands craft
