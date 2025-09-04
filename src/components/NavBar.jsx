@@ -29,10 +29,10 @@ function NavBar() {
                     </div>
                 </div>
                 {toggle && (
-                    <div className="fixed right-0 top-[64px] bottom-0 z-20 bg-[#FAFAFA] text-xl w-full p-12 flex flex-col justify-top items-center gap-6 lg:hidden">
+                    <div className="fixed right-0 top-[84px] bottom-0 z-20 bg-[#FAFAFA] text-xl w-full p-12 flex flex-col justify-top items-center gap-6 lg:hidden">
                        <ul> 
                             {navLinks.map((item, index) => (
-                                <li key={index} className='py-4 text-center'> 
+                                <li key={index} className='py-4 text-center text-3xl font-medium'> 
                                     <a href={item.href}>{item.label}</a>
                                 </li>
                                 ))}
