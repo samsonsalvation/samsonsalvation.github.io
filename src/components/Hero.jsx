@@ -10,8 +10,8 @@ const HeroSection = () => {
             <div> 
                 <p className="text-3xl lg:text-4xl">
                     Samson is a <span className="font-semibold font-italic"> product designer </span> helping brands craft
-                    seamless digital experiences. He has experience * {" "} 
-                    <span className="font-semibold">designing responsive apps, </span> ⌘  and building
+                    seamless digital experiences. He has experience ✱ {" "} 
+                    <span className="font-semibold">designing responsive apps, </span> ꕤ  and building
                     scalable design systems.
 
 
