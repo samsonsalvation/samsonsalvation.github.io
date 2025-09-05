@@ -1,6 +1,6 @@
 import {navLinks} from '../constants/index';
 import { useState } from 'react';
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/Logo.svg';
 import {Menu, X} from 'lucide-react';
 
 function NavBar() {

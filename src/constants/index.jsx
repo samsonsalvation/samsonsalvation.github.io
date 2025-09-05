@@ -14,20 +14,23 @@ export const projects = [
     { title: "Medvive app", 
       description: "A telemedicine app that connects patients with healthcare professionals for remote consultations and medical advice.",
       image: bannerMedvive,  
+      link: "https://www.medvive.com.ng/"
     },
     { title: "Wotdo Landing Page",
       description: "Implemented adaptive mobile and web templates to create a consistent game management experience (>5M users)" ,
       image: bannerWotdo, 
+      link: "https://www.behance.net/gallery/230971565/Designing-for-Change-The-Women-Thrive-Landing-Page"
     },
     { title: "MediAxis Dashboard",
         description: "A comprehensive healthcare management platform that streamlines patient data, appointments, and medical records for healthcare providers.",
         image: Medaxis,
+        link: "https://www.behance.net/gallery/230859707/MedAxis-Hospital-Management-System-UI-Design"
         },
 ];
 
 export const Contact = [
-    { label:"Email", href: "#"},
-    { label:"LinkedIn", href: "#"},
-    { label:"Behance", href: "#"},
-    { label:"Github", href: "#"},
+    { label:"Email", href: "mailto:samsonsalvation@gmail.com"},
+    { label:"LinkedIn", href: "https://www.linkedin.com/in/samsonsalvationbishop/"},
+    { label:"Behance", href: "https://www.behance.net/salvationsamson"},
+    { label:"Github", href: "https://github.com/kenyyode"},
 ]

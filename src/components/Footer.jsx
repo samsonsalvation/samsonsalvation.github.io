@@ -15,7 +15,7 @@ const Footer = () => {
                     <ul className="flex flex-col gap-4"> 
                         {Contact.map((item, index) => (
                             <li>
-                                 <a key={index} href={item.href} className="mx-2 underline hover:underline hover:underline-offset-8">{item.label}</a>
+                                 <a key={index} href={item.href} target="_blank" rel="noopener noreferrer" className="mx-2 underline hover:underline hover:underline-offset-8">{item.label}</a>
                             </li>
 
                                     ))}
