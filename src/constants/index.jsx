@@ -17,7 +17,7 @@ export const projects = [
       link: "https://www.medvive.com.ng/"
     },
     { title: "Wotdo Landing Page",
-      description: "Implemented adaptive mobile and web templates to create a consistent game management experience (>5M users)" ,
+      description: "Designed a clean, intuitive landing page for Women Thrive that highlights programs and donation options. Focused on storytelling, trust-building, and clear calls-to-action." ,
       image: bannerWotdo, 
       link: "https://www.behance.net/gallery/230971565/Designing-for-Change-The-Women-Thrive-Landing-Page"
     },
