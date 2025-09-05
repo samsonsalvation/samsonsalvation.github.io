@@ -24,3 +24,10 @@ export const projects = [
         image: Medaxis,
         },
 ];
+
+export const Contact = [
+    { label:"Email", href: "#"},
+    { label:"LinkedIn", href: "#"},
+    { label:"Behance", href: "#"},
+    { label:"Github", href: "#"},
+]
