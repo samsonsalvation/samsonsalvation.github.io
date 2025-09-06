@@ -2,6 +2,7 @@ import {navLinks} from '../constants/index';
 import { useState } from 'react';
 import Logo from '../assets/Logo.svg';
 import {Menu, X} from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     const [toggle, setToggle] = useState(false);
@@ -16,8 +17,8 @@ function NavBar() {
                     <ul className='hidden lg:flex ml-8 space-x-8 font-medium'>
                         {navLinks.map((item, index) => (
                             <li key={index}>
-                                <a href={item.href}className={`hover:cursor-pointer transition-colors duration-200 hover:font-bold ${
-                index === 0 ? "underline underline-offset-8" : ""}`}>{item.label}</a>
+                                <NavLink to={item.url} className={ ({isActive}) => `hover:cursor-pointer transition-colors duration-200 hover:font-bold ${
+                isActive ? "underline underline-offset-8" : ""}`}>{item.label}</NavLink>
                             </li>
                         ))}
                     </ul>
@@ -33,7 +34,7 @@ function NavBar() {
                        <ul> 
                             {navLinks.map((item, index) => (
                                 <li key={index} className='py-4 text-center text-3xl font-medium'> 
-                                    <a href={item.href}>{item.label}</a>
+                                    <NavLink to={item.url}>{item.label}</NavLink>
                                 </li>
                                 ))}
                         </ul> 

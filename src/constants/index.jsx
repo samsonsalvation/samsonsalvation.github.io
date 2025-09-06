@@ -3,11 +3,12 @@ import bannerWotdo from '../assets/BannerWotdo.png';
 import Medaxis from '../assets/MediAxis.png';
 
 
+
 export const navLinks = [
-    { label: "work", url: "#" },
-    { label: "about", url: "#" },
-    { label: "blog", url: "#" },
-    { label: "resume", url: "#" },
+    { label: "work", url: "/" },
+    { label: "about", url: "/about" },
+    { label: "blog", url: "/blog" },
+    { label: "resume", url: "https://docs.google.com/document/d/11Bkk3efmkzVhPFxxKe7uKPns0HTkimX6rkVKnoK7loM/edit?usp=sharing" },
 ];
 
 export const projects = [
