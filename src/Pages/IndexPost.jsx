@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Visual1 from "../assets/visual1.png";
 
 const IndexPost = () => {
     return (
@@ -50,6 +51,7 @@ const IndexPost = () => {
                 full address unless it is required for emergency dispatch. Similarly, 
                 for a wellness tracker, you may not need personal identifiers like full names or national IDs at all.
             </p>
+            <img src={Visual1} alt="Visual1" className="w-full h-auto mb-4 border rounded-lg"/>
 
         </div>
         <Footer />
