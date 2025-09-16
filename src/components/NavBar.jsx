@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Logo from '../assets/Logo.svg';
 import {Menu, X} from 'lucide-react';
 import { NavLink } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function NavBar() {
     const [toggle, setToggle] = useState(false);
@@ -12,7 +13,9 @@ function NavBar() {
             <div className="container py-[12px] mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center flex-shrink-0">
-                        <img src={Logo} alt=''className=' h-[20px] w-auto lg:h-[30px] lg:w-[30px]' />
+                        <Link to="/">
+                            <img src={Logo} alt=''className=' h-[20px] w-auto lg:h-[30px] lg:w-[30px]' />
+                        </Link>
                     </div>
                     <ul className='hidden lg:flex ml-8 space-x-8 font-medium'>
                         {navLinks.map((item, index) => (

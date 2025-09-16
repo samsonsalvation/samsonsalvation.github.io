@@ -52,6 +52,46 @@ const IndexPost = () => {
                 for a wellness tracker, you may not need personal identifiers like full names or national IDs at all.
             </p>
             <img src={Visual1} alt="Visual1" className="w-full h-auto mb-4 border rounded-lg max-w-full object-contain"/>
+
+            <p>
+                By reducing unnecessary data collection, you reduce risk exposure in the
+                 event of a breach and build greater user trust.
+            </p>
+            <h3 className="text-xl font-medium"> Transparent Consent </h3>
+            <p>
+                Privacy is not just about encryption and secure servers,
+                  it’s also about clear communication. Users should understand
+                   what they’re agreeing to, without wading through complex legal jargon.
+            </p>
+            <p>
+                It is important to use plain language in consent forms and explain why
+                 specific data is collected and how it will be used. Your UI should also
+                  offer options to opt in or out of certain data-sharing practices, like using 
+                  anonymized data for research.
+            </p>
+            <p> 
+                This transparency helps build a trust-first relationship,
+                 which is essential when dealing with health data
+            </p>
+
+            <h3 className="text-xl font-medium"> Privacy by Design </h3>
+            <p> 
+                Modern healthcare apps should integrate privacy by design 
+                principles from the start, not as an afterthought. This includes:
+            </p>
+            <ul className="list-disc list-inside">
+                <li> <span className="font-semibold"> Secure defaults </span> — Encryption enabled by default, not as an option</li>
+                <li> <span className="font-semibold"> Role-based access </span> — Only authorized users can access sensitive data</li>
+                <li> <span className="font-semibold"> Regular audits </span> — Frequent security assessments to identify vulnerabilities</li>
+                <li> <span className="font-semibold"> User control </span> — Easy-to-use settings for managing privacy preferences</li>
+            </ul>
+            <p>
+                When privacy is woven into the design process,
+                 it becomes second nature for both the development team and the end users.
+
+            </p>
+
+
             
 
         </div>
