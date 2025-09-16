@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Visual1 from "../assets/visual1.png";
+import Visual1 from "../assets/visual1.svg";
 
 const IndexPost = () => {
     return (
