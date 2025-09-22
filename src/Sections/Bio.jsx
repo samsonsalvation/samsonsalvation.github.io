@@ -7,7 +7,7 @@ const Bio = () => {
                 <img src={myPhoto} alt="Samson Salvation" className='border rounded-lg w-full  h-auto'/>
             </section>
             <section className='flex flex-col gap-6 w-full max-w-3xl text-left lg:basis-3/5 '>
-                <h2 className='text-3xl'> I’m Samson Bishop – I <span className='font-semibold italic'> create </span> digital experiences that truly <span className='font-semibold italic'> connect </span>.</h2>
+                <h2 className='text-3xl'> I’m Samson Salvation – I <span className='font-semibold italic'> create </span> digital experiences that truly <span className='font-semibold italic'> connect </span>.</h2>
                 <p className='text-xl'> I’m a medical doctor and UI/UX designer with a background in healthcare technology and data analytics. </p>
                 <p className=''> 
                     My journey started in medicine, where I saw firsthand how access and design directly influence people’s 
