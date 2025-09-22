@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
 import Project from "../components/Projects";
 import Footer from "../components/Footer";
+import MorePosts from "../Sections/MorePosts";
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
             <div>
                 <Hero />
                 <Project />
+                <MorePosts />
             </div>
             <Footer />
         </div>

@@ -4,7 +4,7 @@ import flower from '../assets/flower1.png';
 
 const HeroSection = () => {
     return (
-        <div className=" px-4 sm:max-w-3xl mx-auto items-center text-center justify-center mt-48 lg:mt-40 tracking-normal space-y-8 lg:space-y-4"> 
+        <div className=" px-4 sm:max-w-3xl mx-auto items-center text-center justify-center mt-48 mb-40 lg:mt-40 tracking-normal space-y-8 lg:space-y-4"> 
         <img src={flower} alt="Flower"
          className='absolute left-0 top-12 lg:top-1/4 opacity-50 pointer-events-none select-none h-[200px] lg:h-[416.95px] w-auto' />
             <div> 
