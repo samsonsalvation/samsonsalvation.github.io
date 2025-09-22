@@ -12,7 +12,7 @@ function Home() {
             <div>
                 <Hero />
                 <Project />
-                <MorePosts />
+                <MorePosts title="Featured Posts"/>
             </div>
             <Footer />
         </div>

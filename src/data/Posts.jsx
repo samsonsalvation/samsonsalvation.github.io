@@ -15,7 +15,7 @@ export const Previews = [
       Title: "Designing for healthcare: Data Accuracy - Part B",
       Except: "Accuracy in healthcare design isn’t optional — it’s life-critical. Unlike other industries where errors might cause inconvenience, in digital health even a small mistake in data capture or display can put patient safety at risk.",
       Image: PartB,
-      url: "#",
+      url: "/blog/partb",
       Date: "SEPTEMBER 22, 2025",
       Timing: "6 MIN READ"
 

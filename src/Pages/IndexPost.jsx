@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Visual1 from "../assets/visual3.svg";
+import MorePosts from "../Sections/MorePosts";
 
 const IndexPost = () => {
     return (
@@ -95,6 +96,7 @@ const IndexPost = () => {
             
 
         </div>
+        <MorePosts title="More Posts" />
         <Footer />
 
     </div>
