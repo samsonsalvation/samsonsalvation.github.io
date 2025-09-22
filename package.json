@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "postbuild": "copy dist\\index.html dist\\404.html",
-    "deploy": "vite build && copy dist\\index.html dist\\404.html && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.542.0",
