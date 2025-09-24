@@ -1,6 +1,7 @@
 import bannerMedvive from '../assets/BannerMedvive.png';
 import bannerWotdo from '../assets/BannerWotdo.png';
 import Medaxis from '../assets/MediAxis.png';
+import vr from '../assets/vr.gif';
 
 
 
@@ -27,6 +28,12 @@ export const projects = [
         image: Medaxis,
         link: "https://www.behance.net/gallery/230859707/MedAxis-Hospital-Management-System-UI-Design"
         },
+    {
+      title: "VirtualR Tools for Devs - Landing Page ",
+      description: "A sleek, modern landing page for VirtualR Tools for Devs that highlights key features and benefits. Focused on clarity, user engagement, and conversion optimization.",
+      image: vr,
+      link: "https://samsonsalvation.github.io/VirtualReality-Landing-Page/"
+    }
 ];
 
 export const Contact = [
