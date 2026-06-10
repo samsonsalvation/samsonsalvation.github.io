@@ -32,7 +32,7 @@ export const projects = [
         link: "https://www.doxahealth.ng/"
     },
        {
-        title: "MediAxis – Hospital Management Dashboard",
+        title: "MediAxis – Hospital Management Dashboard ",
         description: "Designed a comprehensive hospital management platform streamlining patient data, appointments, and medical records for healthcare providers. Leveraged clinical background to ensure workflows reflect real-world healthcare operations.",
         image: Medaxis,
         link: "https://www.behance.net/gallery/230859707/MedAxis-Hospital-Management-System-UI-Design"
